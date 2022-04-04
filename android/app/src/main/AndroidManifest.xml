@@ -1,9 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dicoding.bandung_vacation">
-   <application
-        android:label="bandung_vacation"
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:label="Ngunikin"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

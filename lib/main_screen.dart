@@ -1,4 +1,3 @@
-import 'dart:html';
 import 'dart:ui';
 import 'package:bandung_vacation/detail_screen.dart';
 import 'package:flutter/material.dart';
